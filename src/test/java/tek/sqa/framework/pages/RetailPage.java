@@ -67,7 +67,9 @@ public class RetailPage extends CommonUtility {
 	public void clickOnAccountOption() {
 		click(accountOption);
 	}
-	
+	public void clickSignInOption() {
+		click(signInOption);
+	}
 	
 	
 	

@@ -10,20 +10,20 @@
 			<class name="testNG.basics.TestNGAnnotations"></class>
 			<class name="testNG.basics.TestNGAssertions"></class>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="TestNG Parameters">
-		<parameter name="UserNameValue" value="shaiq@tekschool.us"></parameter>
-		<parameter name="passwordValue" value="Tek@12345"></parameter>
+		<parameter name="UserNameValue" value="hamed@tek.us"></parameter>
+		<parameter name="passwordValue" value="Hamed@tek7"></parameter>
 		<classes>
 			<class name="testNG.basics.TestNGParameters"></class>
 		</classes>
-	</test>-->
-	<test name="TestNG Parameters">
-		<parameter name="UserNameValue" value="phantom.test@gmail.com"></parameter>
-		<parameter name="passwordValue" value="Tek@12345"></parameter>
+	</test>
+	<!--<test name="TestNG Parameters">
+		<parameter name="UserNameValue" value="makho@tek.us"></parameter>
+		<parameter name="passwordValue" value="Makho@tek7"></parameter>
 		<classes>
 			<class name="testNG.basics.JDBCTest"></class>
 		</classes>
-	</test>
+	</test>-->
 </suite>

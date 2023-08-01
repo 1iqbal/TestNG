@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tek.sqa.framework.tests.RetailPageTest">
+      <class name="tek.sqa.framework.tests.RatailPageTestOne">
         <methods>
           <include name="setUpTest"/>
-          <include name="initializeTest"/>
+          <include name="RetailApplicationTest"/>
           <include name="closeTest"/>
-          <include name="RetailApplicationTest" invocation-numbers="0"/>
+          <include name="initializeTest"/>
         </methods>
-      </class> <!-- tek.sqa.framework.tests.RetailPageTest -->
+      </class> <!-- tek.sqa.framework.tests.RatailPageTestOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

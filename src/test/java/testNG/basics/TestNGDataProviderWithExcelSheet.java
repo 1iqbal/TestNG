@@ -11,10 +11,10 @@ public class TestNGDataProviderWithExcelSheet {
 
 	@Test(dataProvider = "informationData")
 	public void testOne(String name, String email, String city, String state, String zipcode) {
-		System.out.println(name + " This is name from excel sheet");
-		System.out.println(email + " This is email from excel sheet");
-		System.out.println(city + " This is city from excel sheet");
-		System.out.println(state + " This is state from excel sheet");
+		System.out.println(name    + " This is name from excel sheet");
+		System.out.println(email   + " This is email from excel sheet");
+		System.out.println(city    + " This is city from excel sheet");
+		System.out.println(state   + " This is state from excel sheet");
 		System.out.println(zipcode + " This is zipcode from excel sheet");
 	}
 

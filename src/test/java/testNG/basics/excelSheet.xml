@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Excel Testing">
+	<test name="Excel Test" parallel="methods" thread-count = "1">
+		<classes>
+			<class name="testNG.basics.TestNGDataProviderWithExcelSheet"></class>
+		</classes>
+	</test>
+</suite>
